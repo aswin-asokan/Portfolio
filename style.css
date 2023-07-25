@@ -482,7 +482,7 @@ footer{
     #Projects img
     {
         width: 100%;
-        max-width: 380px;
+        max-width: 300px;
         border-radius: 20px;
         box-shadow: 0 2px 1px 0 rgba(136, 136, 136, 0.2), 0 1px 1px 0 rgba(113, 113, 113, 0.19);
         margin-top: 10px;
@@ -511,7 +511,7 @@ footer{
     #pro p
     {
         width: 100%;
-        max-width: 380px;
+        max-width: 300px;
         margin-bottom: 3px;
     }
     #containerProject1
@@ -796,12 +796,16 @@ footer{
 
     /*contacts*/
     /*Contact*/
+    #Contact
+    {
+        padding: 30px 0 0 8%;
+    }
     #Contact h2
     {
-        padding: 30px;
         display: block;
         padding-bottom : 10px;
         padding-top : 10px;
+        padding-left: 0;
     }
     #Contact h3
     {
@@ -818,10 +822,9 @@ footer{
     }
     #contact
     {
-        padding-left: 30px;
         display: block;
         width: 100%;
-    
+        padding-left: 0;
     }
     .details
     {
