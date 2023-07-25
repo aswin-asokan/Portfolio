@@ -13,3 +13,10 @@ function navControl()
         i.className = "fa-solid fa-bars";
     }
 }
+function closeNav()
+{
+    x = document.getElementById("navMob");
+    i = document.getElementById("icon");
+    x.style.width = "0%";
+    i.className = "fa-solid fa-bars";
+}
