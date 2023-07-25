@@ -1,0 +1,615 @@
+html{scroll-behavior:smooth}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+}
+body a
+{
+    color: white;
+    text-decoration: none;
+}
+body button
+{
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: calc(15px + 0.35vw);
+    padding: 10px 35px;
+}
+body p
+{
+    font-size: calc(15px + 0.35vw);
+}
+body span
+{
+    font-size: calc(15px + 0.35vw);
+}
+body h2
+{
+    font-size: calc(15px + 1.3vw);
+}
+body h3
+{
+    font-size: calc(15px + 0.6vw);
+}
+/*Navigation bar*/
+.linkList
+{
+    display: none;
+}
+#navMob
+{
+    display: none;
+}
+#header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 12%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+nav ul
+{
+    margin-right: 20px; 
+    margin-left: 20px;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px; 
+    font-size: calc(15px + 0.3vw);
+}
+nav a
+{
+    color: black;
+    text-decoration: none;
+}
+
+
+/*Introduction*/
+
+#mainIntro
+{
+    flex: 1;
+    height: 100%;
+}
+#Introduction
+{
+    padding: 30px 15%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    min-height: 100vh;
+    margin-top: 5px;
+}
+#containerIntro
+{
+    display: flex;
+    align-items: center;
+}
+#intro
+{
+    margin-right: 5%;
+}
+#intro h1
+{
+    font-size: calc(15px + 2.3vw);
+    margin-bottom: 10px;
+    padding:0;
+}
+#intro p
+{
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 3px;
+}
+#aswin
+{
+    color: #55B972;
+    font-size: calc(15px + 2.3vw);
+}
+#aboutButton
+{
+    margin-top: 10px;
+    background-color: #6ed28b;
+}
+#imgIntro
+{
+    display: flex;
+    width: 100%;
+    max-width: 700px;
+    align-items: center;
+}
+
+/*about*/
+
+#introAbout
+{
+    margin-bottom: 50px;
+}
+#cv
+{
+    background-color: #FF725E;
+}
+#buttonCV
+{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#containerAbout h2
+{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+#About
+{
+    padding: 30px 15%;
+    display: flex;
+    justify-content: center;
+}
+#containerAbout
+{
+    display: flex;
+    align-items: center;
+}
+#imgAbout
+{
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    align-items: center;
+    margin-right: 5%;
+}
+#aboutTable
+{
+    font-size: calc(15px + 0.35vw);
+    border: 0;
+    border-spacing: 10px;
+}
+
+/*Project*/
+#Imgpro
+{
+    display: none;
+}
+#Projects h2
+{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+#Projects
+{
+    padding: 30px 15%;
+}
+#Projects img
+{
+    width: 100%;
+    max-width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 2px 1px 0 rgba(136, 136, 136, 0.2), 0 1px 1px 0 rgba(113, 113, 113, 0.19);
+    margin-top: 10px;
+}
+#project
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+#pro h3
+{
+    font-size: calc(15px + 0.6vw);
+    margin:0;
+    padding:0;
+    margin-bottom: 10px;
+}
+#pro p
+{
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 3px;
+}
+#containerProject1
+{
+    margin-right: 5%;
+}
+#containerProject2
+{
+    margin-left: 5%;
+}
+#project button
+{
+    background-color: black;
+    margin-top: 10px;
+}
+
+/*Contact*/
+#Contact h2
+{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+#Contact a
+{
+    color: black;
+    text-decoration: none;
+    font-size: calc(15px + 0.35vw);
+}
+.fa-solid
+{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+#contact
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    
+}
+.details
+{
+    margin: 3%;
+}
+.details h3{
+    margin-bottom: 6px;
+}
+/*footer*/
+footer{
+    background-color: white;
+}
+#foot
+{
+    display: block;
+    padding: 30px 15%;
+}
+#contents
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.fa-brands
+{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.git
+{
+    color: #333;
+}
+.fa-linkedin
+{
+    color: #0A66C2;
+}
+.fa-twitter
+{
+    color: #1DA1F2;
+}
+#copyright1
+{
+    margin: 3%;
+}
+#copyright2
+{
+   display: none;
+}
+.fa-heart
+{
+    font-size: calc(15px + 0.35vw);
+    color: red;
+}
+#built
+{
+    margin: 3%;
+}
+.content
+{
+    display: flex;
+    margin: 3%;
+}
+#brandName
+{
+    display: none;
+}
+#heading
+{
+    display: none;
+}
+
+/*phone*/
+@media screen and (max-width: 480px) {
+    body p
+    {
+        font-size: calc(15px + 0.3vw);
+    }
+    body h2
+    {
+        font-size: calc(15px + 2.3vw);
+    }
+    /*navbar*/
+    #header
+    {
+        padding: 20px 3%;
+        padding-bottom: 10px;
+    }
+    #navbar
+    {
+        display: none;
+    }
+    #navMob
+    {
+        display: block;
+        background-color: #333;
+        width: 50%;
+        height: 100%;
+        margin-top: 15%;
+        position: fixed;
+        text-align: center;
+        right: 0;
+        overflow-x: hidden;
+  transition: 0.5s;
+    }
+    #navMob ul{
+        display: flex;
+        flex-direction: column;
+        margin: 20%;
+    }
+    #navMob a
+    {
+        color: white;
+        font-size: calc(15px + 1vw);
+        margin-bottom: 30px;
+    }
+    #navMob li
+    {
+        margin-bottom: 30px;
+    }
+    .linkList{
+        display: block;
+        background-color: white;
+        padding: 0;
+    }
+    .fa-bars
+    {
+        color: black;
+        font-size: 0;
+    }
+    .fa-x
+    {
+        color: black;
+        font-size: 0;
+    }
+
+
+    /*intro*/
+    #introAbout
+    {
+        margin-bottom: 50px;
+    }
+    #Introduction
+    {
+        padding: 30px 15%;
+        display: block;
+        justify-content: center;
+        height: 100%;
+        min-height: 0;
+        margin-top: 15%;
+        padding: 30px 0 0 8%;
+    }
+    #intro p
+    {
+        max-width: 300px;
+    }
+    #imgIntro
+    {
+        display: flex;
+        width: 100%;
+        max-width: 300px;
+        align-items: center;
+        margin-top: 25px;
+    }
+    #containerIntro
+    {
+        align-items: center;
+    }
+    #intro
+    {
+        margin-right: 5%;
+    }
+    #aboutButton
+    {
+        display: none;
+    }
+
+
+    /*about*/
+    #imgAbout
+    {
+        display: none;
+    }
+    #About
+    {
+        padding: 30px 15%;
+        display: block;
+        justify-content: center;
+        height: 100%;
+        min-height: 0;
+        margin-top: 15%;
+        padding: 30px 0 0 8%;
+    }
+    #aboutTable
+    {
+        font-size: calc(15px + 0.3vw);
+    }
+    #cv
+    {
+        background-color: #6ed28b;
+    }
+
+    /*Project*/
+
+    #Projects h2
+    {
+        display: block;
+        padding: 30px 0 0 8%;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    #Projects
+    {
+        padding: 30px 0 0 8%;
+    }
+    #Projects img
+    {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 20px;
+        box-shadow: 0 2px 1px 0 rgba(136, 136, 136, 0.2), 0 1px 1px 0 rgba(113, 113, 113, 0.19);
+        margin-top: 10px;
+    }
+    #proImgs
+    {
+        display: none;
+    }
+    #Imgpro
+    {
+        display: block;
+        margin-bottom: 15px;
+    }
+    #project
+    {
+        display: block;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 45px;
+    }
+    #pro h3
+    {
+        font-size: calc(15px + 1.3vw);
+        margin-bottom: 10px;
+    }
+    #pro p
+    {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 3px;
+    }
+    #containerProject1
+    {
+        margin-right: 0;
+    }
+    #containerProject2
+    {
+        margin-left: 0;
+    }
+    #project button
+    {
+        background-color: black;
+        margin-top: 10px;
+    }
+
+    /*contacts*/
+    /*Contact*/
+    #Contact h2
+    {
+        padding: 30px;
+        display: block;
+        padding-bottom : 10px;
+        padding-top : 10px;
+    }
+    #Contact h3
+    {
+        display: none;
+    }
+    #Contact a
+    {
+        font-size: calc(15px + 0.3vw);
+    }
+    .fa-solid
+    {
+        font-size: calc(15px + 0.3vw);
+        margin-right: 10px;
+    }
+    #contact
+    {
+        padding-left: 30px;
+        display: block;
+        width: 100%;
+    
+    }
+    .details
+    {
+        margin: 3%;
+        display: flex;
+    }
+
+    /*footer*/
+    #foot
+    {
+        padding: 30px;
+        padding-top: 10px;
+    }
+    #contents
+    {
+        display: block;
+        width: 100%;
+    }
+    .fa-brands
+    {
+        font-size: calc(15px + 0.3vw);
+        margin-left: 0%;
+        display: flex;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    #copyright1
+    {
+        display: none;
+    }
+    #copyright2
+    {
+        display: block;
+        margin: 3%;
+    }
+    .content
+    {
+        display: block;
+    }
+    .content a
+    {
+        color: black;
+    }
+    #brandName
+    {
+        display: inline;
+    }
+    #heading
+    {
+        display: block;
+        margin-bottom: 10px;
+    }
+    #built
+    {
+        display: none;
+    }
+}

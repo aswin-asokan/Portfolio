@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Aswin</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link href="./style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/e6b1aab2bf.js" crossorigin="anonymous"></script>
+        <script src="src/index.js"></script>
+    </head>
+    <body>
+        <header id="header">
+            <img src="assets/imgaes/Aswin__2_-removebg-preview.png" height="30" id="aswinLogo" alt="logo">
+            <nav id="navbar">
+                <ul>
+                    <li>
+                        <a href="#mainIntro">Home</a>
+                    </li>
+                    <li>
+                        <a href="#introAbout">About</a>
+                    </li>
+                    <li>
+                        <a href="#Projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="linkList"><i class="fa-solid fa-bars" id="icon" onclick="navControl()"></i></button>
+        </header>
+        <nav id="navMob" style="width: 0%;">
+            <ul>
+                <li>
+                    <a href="#mainIntro">Home</a>
+                </li>
+                <li>
+                    <a href="#introAbout">About</a>
+                </li>
+                <li>
+                    <a href="#Projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="mainIntro">
+            <section id="Introduction">
+                <div id="containerIntro">
+                    <div id="intro">
+                        <h1>
+                            Hey, I'm 
+                            <span id="aswin">Aswin</span>
+                        </h1>
+                        <p>
+                            A self taught application developer who loves finding creative solutions to problems.
+                        </p>
+                        <button id="aboutButton"><a href="#introAbout">About Me</a></button>
+                    </div>
+                </div>
+                <div id="imgIntro">
+                <img src="assets/imgaes/9233855_4110953.svg" alt="intro image">
+                </div>
+            </section>
+            <div id="introAbout"></div>
+            <section id="About">
+                <div id="imgAbout">
+                    <img src="assets/imgaes/18407472_5995337.svg" alt="about Image">
+                </div>
+                <div id="containerAbout">
+                    <div>
+                        <div id="headAb"><h2>About Me</h2></div> 
+                        <div id="tableAbout">
+                            <table id="aboutTable">
+                                <tr>
+                                    <td>Name:</td>
+                                    <td>Aswin Asokan</td>
+                                </tr>
+                                <tr>
+                                    <td>Address:</td>
+                                    <td>Nellattu (H) S.Vazhakulam</td>
+                                </tr>
+                                <tr>
+                                    <td>Pincode:</td>
+                                    <td>683105</td>
+                                </tr>
+                                <tr>
+                                    <td>Mail id:</td>
+                                    <td>aswin_asokan@outlook.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Phone:</td>
+                                    <td>6238303567</td>
+                                </tr>
+                            </table>
+                        </div>
+                    <div id="buttonCV">
+                        <button id="cv"><a href="./assets/files/resume.pdf" download>Download CV</a></button>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section id="Projects">
+                <div><h2>Projects</h2></div> 
+                <div id="proImg">
+                    <div id="project">
+                        <div id="containerProject1">
+                            <div id="pro">
+                                <h3>EazyGo</h3>
+                                <div id="Imgpro">
+                                    <img src="assets/imgaes/eazygo mockup (1).png" alt="project eazygo">
+                                </div>
+                                <p>EazyGo is a mobile application built with flutter. It provides users with an easy way to report and manage pipeline issues, road patches, and other infrastructure needs. The app provides users with a streamlined way to report needs to the appropriate authorities and track the progress of the work being done.</p>
+                                <button><a href="https://github.com/aswin-asokan/EazyGo-MAp" target="_blank">View on Github       <i class="fa fa-github"></i></a></button>
+                            </div>
+                        </div>
+                        <div id="proImgs">
+                            <img src="assets/imgaes/eazygo mockup (1).png">
+                        </div>
+                    </div>
+                    <div id="project">
+                        <div id="proImgs">
+                            <img src="assets/imgaes/eazygoAuth Mockup (1).png" alt="project eazygo authority">
+                        </div>
+                        <div id="containerProject2">
+                            <div id="pro">
+                                <h3>EazyGo Authority</h3>
+                                <div id="Imgpro">
+                                    <img src="assets/imgaes/eazygoAuth Mockup (1).png">
+                                </div>
+                                <p>EazyGo-Authority is a web application built with flutter. Specifically designed for authorities to efficiently manage reports submitted by users through the EazyGo mobile application.
+                                </p></div>
+                                <button><a href="https://github.com/aswin-asokan/eazyGo_Auth" target="_blank">View on Github       <i class="fa fa-github"></i></a></button>
+                        </div>
+                    </div>
+                    <div id="project">
+                        <div id="containerProject1">
+                            <div id="pro">
+                                <h3>Dairymanagement</h3>
+                                <div id="Imgpro">
+                                    <img src="assets/imgaes/dairymanagement (2).png" alt="project dairy management ">
+                                </div>
+                                <p>A simple yet beautiful java application made for the purpose of managing a dairy. This can be used for tracking sales and purchases, managing staff details and also it has an interactive dashboard to view all details at one place.</p>
+                                <button><a href="https://github.com/aswin-asokan/DairyManagement-App" target="_blank">View on Github       <i class="fa fa-github"></i></a></button>
+                            </div>
+                        </div>
+                        <div id="proImgs">
+                            <img src="assets/imgaes/dairymanagement (2).png">
+                        </div>
+                    </div>
+                    <div id="project">
+                        <div id="proImgs">
+                            <img src="assets/imgaes/iot challege Mockup.png" alt="kerala iot challege">
+                        </div>
+                        <div id="containerProject2">
+                            <div id="pro">
+                                <h3>Kerala IoT Challenge</h3>
+                                <div id="Imgpro">
+                                    <img src="assets/imgaes/iot challege Mockup.png">
+                                </div>
+                                <p>Kerala IoT Challenge is a program embracing the vision of 5000 IoT-enabled students from Kerala, hosting on the µLearn platform. This page contains over 20 IoT projects with explanations and working videos.
+                                </p></div>
+                                <button><a href="https://github.com/aswin-asokan/Kerala-IoT-Challenge" target="_blank">View on Github       <i class="fa fa-github"></i></a></button>
+                        </div>
+                    </div>
+            </section>
+            <section id="Contact">
+                <div><h2>Contact</h2></div>
+                <div id="contact">
+                        <div class="details">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h3>Location</h3>
+                            <span>Aluva, Ernakulam, Kerala</span>
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-phone"></i>
+                            <h3>Contact Number</h3>
+                            <span>6238303567</span>
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h3>Email Address</h3>
+                            <a href = "mailto: aswin_asokan@outlook.com" target="_blank">aswin_asokan@outlook.com</a>
+                        </div>
+                </div>
+            </section>
+            <footer id="foot">
+                <div>
+                    <div><hr></div>
+                    <div id="contents">
+                        <p id="copyright1">&copy; Aswin Asokan, 2023</p>
+                        <div class="content">
+                            <div id="heading"><h4>Links</h4></div>
+                            <div class="brands"><a href="https://github.com/aswin-asokan" target="_blank"><i class="fa-brands fa-github git"></i></a><a href="https://github.com/aswin-asokan" target="_blank" id="brandName">Github</a></div>
+                            <div class="brands"><a href="https://www.linkedin.com/in/aswin-asokan/" target="_blank"><i class="fa-brands fa-linkedin"></i></a><a href="https://www.linkedin.com/in/aswin-asokan/" target="_blank" id="brandName">LinkedIn</a></div>
+                            <div class="brands"><a href="https://twitter.com/AlphaKnight29?t=pJaXGFpj9fJ6wRhE15ZiOw&s=09" target="_blank"><i class="fa-brands fa-twitter"></i></a><a href="https://twitter.com/AlphaKnight29?t=pJaXGFpj9fJ6wRhE15ZiOw&s=09" target="_blank" id="brandName">Twitter</a></div>
+                        </div>
+                        <p id="copyright2">&copy; Aswin Asokan, 2023&nbsp;&nbsp;&nbsp;Built with <i class="fa-solid fa-heart"></i></p>
+                        <p id="built">Built with <i class="fa-solid fa-heart"></i></p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
