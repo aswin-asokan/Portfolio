@@ -3,6 +3,7 @@
     <head>
         <title>Aswin</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="./style.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,44 +11,42 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://kit.fontawesome.com/e6b1aab2bf.js" crossorigin="anonymous"></script>
         <script src="src/index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
     </head>
     <body>
-        <header id="header">
-            <img src="assets/imgaes/Aswin__2_-removebg-preview.png" height="30" id="aswinLogo" alt="logo">
-            <nav id="navbar">
-                <ul>
-                    <li>
-                        <a href="#mainIntro">Home</a>
-                    </li>
-                    <li>
-                        <a href="#introAbout">About</a>
-                    </li>
-                    <li>
-                        <a href="#Projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#Contact">Contact</a>
-                    </li>
-                </ul>
+        <header>
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container">
+                    <!-- Logo -->
+                    <a class="navbar-brand me-auto" href="#">
+                        <img src="assets/imgaes/Aswin__2_-removebg-preview.png" alt="Logo" width="80">
+                    </a>
+                    <!-- Navbar toggler for mobile -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Navbar links -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#About">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
-            <button class="linkList"><i class="fa-solid fa-bars" id="icon" onclick="navControl()"></i></button>
         </header>
-        <nav id="navMob" style="width: 0%;">
-            <ul>
-                <li>
-                    <a href="#mainIntro" onclick="closeNav()">Home</a>
-                </li>
-                <li>
-                    <a href="#introAbout" onclick="closeNav()">About</a>
-                </li>
-                <li>
-                    <a href="#Projects" onclick="closeNav()">Projects</a>
-                </li>
-                <li>
-                    <a href="#Contact" onclick="closeNav()">Contact</a>
-                </li>
-            </ul>
-        </nav>
         <div id="mainIntro">
             <section id="Introduction">
                 <div id="containerIntro">

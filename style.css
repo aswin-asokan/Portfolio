@@ -41,32 +41,16 @@ body h3
     font-size: calc(15px + 0.6vw);
 }
 /*Navigation bar*/
-.linkList
-{
-    display: none;
-}
-#navMob
-{
-    display: none;
-}
-#header
-{
+/* Header styles */
+header {
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
-    padding: 20px 12%;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
 }
-nav ul
-{
-    margin-right: 20px; 
-    margin-left: 20px;
-    list-style: none;
+
+/* Logo styles */
+#aswinLogo {
+    max-width: 100px;
 }
 nav li{
     display: inline-block;
@@ -77,6 +61,20 @@ nav a
 {
     color: black;
     text-decoration: none;
+}
+/* Navbar styles */
+.navbar {
+    background-color: white;
+}
+
+/* Navbar link styles */
+.navbar-nav .nav-link {
+    color: black;
+}
+
+/* Navbar toggler icon styles */
+.navbar-toggler-icon {
+    color: black;
 }
 
 
@@ -335,7 +333,15 @@ footer{
 {
     display: none;
 }
-
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.navbar-brand {
+    margin-right: auto;
+}
+.navbar-nav {
+    margin-left: auto;
+}
 /*phone*/
 @media (max-width: 480px) {
     body p
@@ -346,60 +352,6 @@ footer{
     {
         font-size: calc(15px + 2.3vw);
     }
-    /*navbar*/
-    #header
-    {
-        padding: 20px 3%;
-        padding-bottom: 10px;
-    }
-    #navbar
-    {
-        display: none;
-    }
-    #navMob
-    {
-        display: block;
-        background-color: #333;
-        width: 50%;
-        height: 100%;
-        margin-top: 12%;
-        position: fixed;
-        text-align: center;
-        right: 0;
-        overflow-x: hidden;
-  transition: 0.5s;
-    }
-    #navMob ul{
-        display: flex;
-        flex-direction: column;
-        margin: 20%;
-    }
-    #navMob a
-    {
-        color: white;
-        font-size: calc(15px + 1vw);
-        margin-bottom: 30px;
-    }
-    #navMob li
-    {
-        margin-bottom: 30px;
-    }
-    .linkList{
-        display: block;
-        background-color: white;
-        padding: 0;
-    }
-    .fa-bars
-    {
-        color: black;
-        font-size: 0;
-    }
-    .fa-x
-    {
-        color: black;
-        font-size: 0;
-    }
-
 
     /*intro*/
     #introAbout
@@ -624,61 +576,6 @@ footer{
     {
         font-size: calc(15px + 2.3vw);
     }
-    /*navbar*/
-    #header
-    {
-        padding: 20px 3%;
-        padding-bottom: 10px;
-    }
-    #navbar
-    {
-        display: none;
-    }
-    #navMob
-    {
-        display: block;
-        background-color: #333;
-        width: 50%;
-        height: 100%;
-        margin-top: 5%;
-        position: fixed;
-        text-align: center;
-        right: 0;
-        overflow-x: hidden;
-        transition: 0.5s;
-    }
-    #navMob ul{
-        display: flex;
-        flex-direction: column;
-        margin: 20%;
-    }
-    #navMob a
-    {
-        color: white;
-        font-size: calc(15px + 1vw);
-        margin-bottom: 30px;
-    }
-    #navMob li
-    {
-        margin-bottom: 30px;
-    }
-    .linkList{
-        display: block;
-        background-color: white;
-        padding: 0;
-    }
-    .fa-bars
-    {
-        color: black;
-        font-size: 0;
-    }
-    .fa-x
-    {
-        color: black;
-        font-size: 0;
-    }
-
-
     /*intro*/
     #introAbout
     {
