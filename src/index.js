@@ -1,22 +1,17 @@
-function navControl()
-{
-    x = document.getElementById("navMob");
-    i = document.getElementById("icon");
-    if(x.style.width == "0%")
-    {
-        x.style.width = "50%";
-        i.className = "fa-solid fa-x";
-    }
-    else
-    {
-        x.style.width = "0%";
-        i.className = "fa-solid fa-bars";
-    }
-}
-function closeNav()
-{
-    x = document.getElementById("navMob");
-    i = document.getElementById("icon");
-    x.style.width = "0%";
-    i.className = "fa-solid fa-bars";
-}
+document.addEventListener('DOMContentLoaded', function () {
+    // Get all navbar links
+    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+    // Add click event listener to each navbar link
+    navLinks.forEach(function (link) {
+        link.addEventListener('click', function () {
+            // Check if the navbar collapse element is open
+            const navbarCollapse = document.querySelector('.navbar-collapse');
+            if (navbarCollapse.classList.contains('show')) {
+                // Close the navbar collapse
+                const toggler = document.querySelector('.navbar-toggler');
+                toggler.click();
+            }
+        });
+    });
+});
